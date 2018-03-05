@@ -232,8 +232,7 @@ public class MainActivity extends AppCompatActivity {
 
     public Retrofit getRetrofit() {
         return new Retrofit.Builder()
-                //.baseUrl("https://cadastromaquina.herokuapp.com/")
-                .baseUrl("http://localhost:8080/")
+                .baseUrl("https://marceliino.herokuapp.com/")
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
     }
